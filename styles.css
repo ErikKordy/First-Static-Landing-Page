@@ -1,20 +1,27 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     max-height: 100vh;
 }
 
 .background {
-    background-color: red;
-    height: 300px;
+    background-color: #1f2937;
+    height: 350px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .flex-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 100px;
+    
 }
 
 .header-logo {
@@ -24,8 +31,37 @@ body {
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.hero-right {
+    width: 400px;
+    height: 200px;
+
+}
+
+.hero-left {
+    display: flex; 
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+
+}
+
+
+button {
+    background-color: #3882f6;
+    text-align: left;
 }

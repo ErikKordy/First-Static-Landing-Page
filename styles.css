@@ -11,10 +11,8 @@ body {
 .background {
     display: flex;
     background-color: #1f2937;
-    height: 350px;
-    display: flex;
+    height: 400px;
     flex-direction: column;
-    
     
 }
 
@@ -22,8 +20,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 80px;
-    
+     
+}
+
+.flex-header, .hero-bottom {
+    margin: 10px 320px 60px 320px;
 }
 
 .header-logo {
@@ -42,10 +43,7 @@ body {
 .hero-bottom {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    max-width: 1000px;
-    margin: auto 80px;
-    
+    gap: 60px;
 }
 
 .hero-right {
@@ -74,18 +72,69 @@ button {
     color: #f9faf8;
     text-align: center;
     width: 70px;
-    padding: 2px;
+    padding: 4px;
     border-radius: 5px;
     margin-top: 5px;
 }
 
 .top-middle {
     text-align: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
+    justify-content: center;
     align-items: center;
-    margin: 30px 30px;
+    margin: auto;
+    padding: auto;
+    gap: 80px;
 }
+
+.img-middle {
+    border: 10px solid red;
+    margin-top: 100px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.box-subtext {
+    width:150px;
+}
+
+.middle-title {
+    margin-top: 80px;
+}
+
+.bottom-middle {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-quote, 
+.quote-author {
+    width: 600px;
+}
+
+.main-quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.last-section {
+    display: flex;
+    height: 400px;
+}
+

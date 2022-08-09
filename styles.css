@@ -5,7 +5,10 @@
 }
 
 body {
-    max-height: 100vh;
+    max-height: 1000vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .background {
@@ -42,6 +45,7 @@ body {
 
 .hero-bottom {
     display: flex;
+    width: auto;
     justify-content: space-between;
     gap: 60px;
 }
@@ -67,11 +71,12 @@ h1 {
 }
 
 
-button {
+.hero-button {
     background-color: #3882f6;
+    border: solid #3882f6;
     color: #f9faf8;
     text-align: center;
-    width: 70px;
+    width: 80px;
     padding: 4px;
     border-radius: 5px;
     margin-top: 5px;
@@ -86,11 +91,8 @@ button {
 
 .boxes {
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    padding: auto;
     gap: 80px;
 }
 
@@ -103,11 +105,13 @@ button {
 }
 
 .box-subtext {
-    width:150px;
+    width: 150px;
+    margin-bottom: 80px;
+   
 }
 
 .middle-title {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .bottom-middle {
@@ -116,6 +120,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
+    
     
 }
 
@@ -126,6 +132,8 @@ button {
 .main-quote, 
 .quote-author {
     width: 600px;
+    
+    
 }
 
 .main-quote {
@@ -133,8 +141,45 @@ button {
     color: #1f2937;
 }
 
-.last-section {
-    display: flex;
+.bottom-container {
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    width: 800px;
+    padding: 0 80px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    
+}
+
+.call-to-action {
+    text-align: left;
+    
+}
+
+.bottom-button {
+    border-radius: 5px;
+    border:#e5e7eb solid 2px;
+    width: 80px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 3px;
+}
+
+.landing-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color:#e5e7eb;
+    background-color: #1f2937;
+}
